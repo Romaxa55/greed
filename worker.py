@@ -638,9 +638,10 @@ class Worker(threading.Thread):
         cancel = telegram.InlineKeyboardMarkup([[telegram.InlineKeyboardButton(self.loc.get("menu_skip"),
                                                                                callback_data="cmd_cancel")]])
         # Ask if the user wants to add notes to the order
-        self.bot.send_message(self.chat.id, self.loc.get("ask_order_notes"), reply_markup=cancel)
+        # self.bot.send_message(self.chat.id, self.loc.get("ask_order_notes"), reply_markup=cancel)
         # Wait for user input
-        notes = self.__wait_for_regex(r"(.*)", cancellable=True)
+        # notes = self.__wait_for_regex(r"(.*)", cancellable=True)
+        notes = ""
         # Create a new Order
         order = db.Order(user=self.user,
                          creation_date=datetime.datetime.now(),

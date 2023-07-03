@@ -244,6 +244,9 @@ text_completed = "completato"
 # Text: refunded order
 text_refunded = "rimborsato"
 
+# Text: product not for sale
+text_not_for_sale = "Non in vendita"
+
 # Add product: name?
 ask_product_name = "Come si deve chiamare il prodotto?"
 
@@ -373,7 +376,7 @@ contact_shopkeeper = "Attualmente, il personale disponibile ad offrire assistenz
 # Success: product has been added/edited to the database
 success_product_edited = "✅ Il prodotto è stato aggiunto/modificato con successo!"
 
-# Success: product has been added/edited to the database
+# Success: product has been marked as deleted in the database
 success_product_deleted = "✅ Il prodotto è stato eliminato con successo!"
 
 # Success: order has been created

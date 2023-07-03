@@ -239,6 +239,9 @@ text_completed = "завершено"
 # Text: refunded order
 text_refunded = "повернуто"
 
+# Text: product not for sale
+text_not_for_sale = "Не продається"
+
 # Add product: name?
 ask_product_name = "Як назвати продукт?"
 
@@ -368,7 +371,7 @@ contact_shopkeeper = "Наразі наступні працівники дос�
 # Success: product has been added/edited to the database
 success_product_edited = "✅ Продукт успішно створено/оновлено!"
 
-# Success: product has been added/edited to the database
+# Success: product has been marked as deleted in the database
 success_product_deleted = "✅ Продукт успішно видалено!"
 
 # Success: order has been created
